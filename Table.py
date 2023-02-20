@@ -69,5 +69,5 @@ class Table:
                 break
             for i in range(len(players)):
                 if players[i].action not in ["fold"]:
-                    print(f"Enter the action for player {i}")
+                    print(f"Enter the action 2 for player {i}")
                     players[i].action = input()
