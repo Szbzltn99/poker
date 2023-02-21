@@ -6,3 +6,4 @@ class Player:
         self.fold = False
         self.raise_amount = 0
         self.error = False
+        self.hand_value=[]

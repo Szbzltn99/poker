@@ -1,7 +1,7 @@
 import tkinter as tk
 
 
-class PokerGame(tk.Tk):
+class PokerGame(tk.Tk):#graf felület
     def __init__(self):
         super().__init__()
         self.title("Poker Game")
